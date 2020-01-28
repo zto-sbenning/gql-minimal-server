@@ -1,0 +1,34 @@
+{
+  "name": "gql-techlunch-server",
+  "version": "1.0.0",
+  "description": "Minimal starter for a GraphQL endpoint",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "author": "sbenning",
+  "license": "ISC",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --transpileOnly --respawn ./src/main.ts",
+    "build": "npm run tsc",
+    "copyfiles": "cp -R node_modules ./dist",
+    "prod": "npm run build && npm run copyfiles && node ./dist/main.js",
+    "dev:pretty": "ts-node-dev --transpileOnly --respawn ./src/main.ts | pino-pretty",
+    "prod:pretty": "npm run build && node ./dist/main.js | pino-pretty"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/node": "^13.1.8",
+    "@types/pino": "^5.15.3",
+    "@types/uuid": "^3.4.6",
+    "pino-pretty": "^3.5.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "bcrypt": "^3.0.7",
+    "graphql": "^14.6.0",
+    "pino": "^5.16.0",
+    "uuid": "^3.4.0"
+  }
+}

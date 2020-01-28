@@ -1,0 +1,26 @@
+{	
+	"compilerOptions": {
+		"baseUrl": "./",
+		"declaration": false,
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+
+        "paths": { "*": ["types/*"] },
+		"target": "es2016",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"removeComments": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"lib": [
+			"ES2018"
+		]
+	},
+	"include": [
+		"./src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
