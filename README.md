@@ -31,7 +31,9 @@ C'est pourquoi, Facebook à créé GraphQL (GQL, pour Graph Query Langage)
 - [Site officiel / docs](https://graphql.org/)
 - [Un article que j'ai trouvé intéressant](https://www.bluedrop.fr/content/graphql-complement-rest-drupal)
 
-Donc **QL** pour Query Langage, qui (se veut) assez puissant et flexible pour résoudre les problématiques de **REST** -- **Cependant**, **GQL** possède d'autres lacunes, que REST n'a pas (comme la gestion de l'authentification / autorisations, la pagination, et d'autres ...).
+Donc **QL** pour Query Langage, qui (se veut) assez puissant et flexible pour résoudre les problématiques de **REST**.
+
+**Cependant**, **GQL** possède d'autres lacunes, que REST n'a pas (comme la gestion de l'authentification et des autorisations, la pagination, et d'autres ...).
 
 C'est pourquoi, à mon sens, les deux sont complémentaires.
 
@@ -42,7 +44,7 @@ Ces **controllers** invoquent des **services** qui traduisent l'intention du web
 
 En GQL, on définit un **schema** (ensemble des **types**, **inputs**, **queries** et **mutations** utilisés par le endpoint). L'environnement d'exécution GraphQL utilise ce **schéma** pour invoquer les **resolvers** nécessaires à la resolution de la **query** / **mutation** reçut en requête. Les **resolvers** invoquent des **services** qui traduisent l'intention de la **query** / **mutation**, en opérations en base de donnée. 
 
-Sur Node,  nous utilisons Apollo Server pour implémenter le endpoint GraphQL.
+Sur Node, nous pouvons utiliser Apollo Server pour implémenter le endpoint GraphQL.
 
 - [Apollo Server Docs](https://www.apollographql.com/docs/apollo-server/)
 
