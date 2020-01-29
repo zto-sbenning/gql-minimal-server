@@ -1,4 +1,4 @@
-# C'est quoi le problème ?
+# Quelle est la problèmatique ?
 
 Dans un monde où les débits de bande passante augmente de jour en jour, une feature devient de plus en plus critique dans nos applications: **le mode déconnecté** oO
 
