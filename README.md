@@ -25,7 +25,9 @@ Underfetching generally means that a specific endpoint doesn’t provide enough 
 > \*2 [{json:api}](https://jsonapi.org/) est un de ces standards (c'est même une spécification), c'est très structuré, notamment pour la gestion des relations N-N.
 Mais {json:api} est une spécification plutôt lourde et qui peut être relativement complexe à respecter.
 
-C'est pourquoi, Facebook à créé GraphQL (GQL, pour Graph Query Langage) 
+C'est pourquoi, Facebook à créé GraphQL (GQL, pour Graph Query Langage)
+
+- [Pourquoi GraphQL](https://www.adaltas.com/fr/2018/11/27/avantages-graphql-alternative-rest)
 
 - [GraphQL sur Wikipedia](https://fr.wikipedia.org/wiki/GraphQL)
 - [Site officiel / docs](https://graphql.org/)
