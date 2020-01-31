@@ -19,8 +19,8 @@ REST possède certaines limitations.
 - Si une ressource est un lien / URL, alors X ressources c'est X liens / URLs (Problème des N+1 requêtes *1 ). 
 - Il existe peu de standard pour définir les structures complexes ou lourdes au travers de REST *2
 
-> \*1 Underfetching and the n+1 problem
-Another issue is underfetching and the n+1-requests problem. Underfetching generally means that a specific endpoint doesn’t provide enough of the required information. The client will have to make additional requests to fetch everything it needs. This can escalate to a situation where a client needs to first download a list of elements, but then needs to make one additional request per element to fetch the required data.
+> \*1 Underfetching and the n+1 problem. 
+Underfetching generally means that a specific endpoint doesn’t provide enough of the required information. The client will have to make additional requests to fetch everything it needs. This can escalate to a situation where a client needs to first download a list of elements, but then needs to make one additional request per element to fetch the required data.
 
 > \*2 [{json:api}](https://jsonapi.org/) est un de ces standards (c'est même une spécification), c'est très structuré, notamment pour la gestion des relations N-N.
 Mais {json:api} est une spécification plutôt lourde et qui peut être relativement complexe à respecter.
