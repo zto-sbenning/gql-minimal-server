@@ -2,6 +2,8 @@
 
 Dans un monde où les débits de bande passante augmente de jour en jour, une feature devient de plus en plus critique dans nos applications: **le mode déconnecté** oO
 
+## Rappel
+
 Pour partager l'information, nos applications ont besoin d'interlocuteurs centralisés, qui maintiennent la donnée métier qu'elles manipulent.
 
 Ces interlocuteurs, se sont nos back offices. Et pour communiquer, les back offices et nos applications utilsent un langage commun.
@@ -9,6 +11,8 @@ Ces interlocuteurs, se sont nos back offices. Et pour communiquer, les back offi
 Dans la plupart des cas, ce langage, c'est REST (pour REpresentational State Transfert)
 - [REST sur Wikipedia](https://fr.wikipedia.org/wiki/Representational_state_transfer) 
 - [Marrant, un peu long, mais HYPER intéressant : comment j'ai expliqué REST à ma femme](http://www.pompage.net/traduction/comment-j-ai-explique-rest-a-ma-femme)
+
+
 
 REST, c'est cool, ça marche bien, c'est assez simple et il y a des tonnes d'outils pour travailler avec.
 
@@ -25,9 +29,12 @@ Underfetching generally means that a specific endpoint doesn’t provide enough 
 > \*2 [{json:api}](https://jsonapi.org/) est un de ces standards (c'est même une spécification), c'est très structuré, notamment pour la gestion des relations N-N.
 Mais {json:api} est une spécification plutôt lourde et qui peut être relativement complexe à respecter.
 
+
+
 C'est pourquoi, Facebook à créé GraphQL (GQL, pour Graph Query Langage)
 
 - [Pourquoi GraphQL](https://www.adaltas.com/fr/2018/11/27/avantages-graphql-alternative-rest)
+
 
 - [GraphQL sur Wikipedia](https://fr.wikipedia.org/wiki/GraphQL)
 - [Site officiel / docs](https://graphql.org/)
